@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a965ad0954bae6746a1d168d20957ad8
+timeCreated: 1463560407
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63173
+  packageName: Block Breaker Template
+  packageVersion: 1.0
+  assetPath: Assets/BlockBreakerTemplate/Scenes/Game.unity
+  uploadId: 120133
