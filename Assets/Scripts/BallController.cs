@@ -1,15 +1,12 @@
 using UnityEngine;
 
-namespace BlockBreaker
+[RequireComponent(typeof(Rigidbody2D))]
+public class BallController : MonoBehaviour
 {
-    [RequireComponent(typeof(Rigidbody2D))]
-    public class BallController : MonoBehaviour
-    {
-        private Rigidbody2D rb;
+    private Rigidbody2D rb;
 
-        private void Awake()
-        {
-            rb = GetComponent<Rigidbody2D>();
-        }
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
     }
 }
